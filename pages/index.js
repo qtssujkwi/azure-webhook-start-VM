@@ -14,13 +14,13 @@ var requestOptions = {
 
 export default function Home() {
   const Start = () => {
-    fetch("https://d7fe1ff7-92ff-4b99-abb4-15aac517a57c.webhook.eus.azure-automation.net/webhooks?token=qeK5yDjuk8gfwJ6LY0301PvkAKzMTXiTY%2fB085rdcCw%3d", requestOptions)
+    fetch("https://8a62e9a1-d7d0-4421-9107-330f72a08d1a.webhook.fc.azure-automation.net/webhooks?token=BKokcmO1e4D89vjHTBzSeJlO%2b1Klgd5zEoDldfGAPnA%3d", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
   }
   const Stop= () =>  {
-    fetch("https://d7fe1ff7-92ff-4b99-abb4-15aac517a57c.webhook.eus.azure-automation.net/webhooks?token=RWnBDYFJIBsNKR%2bgzpveA0JxDb1r68287Mehm89i6BY%3d", requestOptions)
+    fetch("https://8a62e9a1-d7d0-4421-9107-330f72a08d1a.webhook.fc.azure-automation.net/webhooks?token=3aRJdSDTBLwYJcPR2Km22kJ%2f9uzrlA9BXTVlhsCXlYY%3d", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
